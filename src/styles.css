@@ -1,0 +1,36 @@
+.calc {
+  margin: 20px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.input {
+  border: none;
+  font-size: 30px;
+}
+
+.answer {
+  border: none;
+  font-size: 30px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.btn {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: none;
+  background-color: rgb(142, 142, 142);
+  font-size: 30px;
+}
